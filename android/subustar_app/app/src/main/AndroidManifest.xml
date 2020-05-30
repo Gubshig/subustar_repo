@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.subusstar">
+    package="com.example.org.subustar" >
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
@@ -10,8 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Activity_Init">
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Activity_Init" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,5 +20,7 @@
         </activity>
         <activity android:name=".Activity_Login"></activity>
         <activity android:name=".Activity_Signup"></activity>
+        <activity android:name=".Activity_Home"></activity>
     </application>
+
 </manifest>
